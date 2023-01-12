@@ -1,0 +1,281 @@
+@font-face {
+    font-family:'Montserrat';
+    src: url("montserrat/Montserrat-VariableFont_wght.ttf");
+}
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family:'Montserrat';
+    background-color: #F9F7FE;
+    height: 100%;
+}
+.principal{
+    width: 100%;
+    height: 100%;
+    background-color: #F9F7FE;
+    padding-left: 16px;
+    margin-bottom: 45px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#conteudo{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+}
+.navbar{
+    height: 111px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 16px;
+}
+.text-navbar{
+    display: flex;
+    flex-direction: column;
+}
+.text-navbar p, .text-cabecalho p{
+    color: #A3A3A3;
+    margin-top: -18px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.text-navbar h1{
+    font-size: 22px;
+    font-weight: 700;
+}
+.consulta-geral{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;  
+    align-items: center;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.esquerda{
+    display: flex;
+    width: 100%;
+    height: 42px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.consulta{
+    width: 328px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    padding-left: 16px;
+    margin-top: 16px;
+    padding: 0px 0px 16px 16px;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 16px;
+}
+.metodo{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 10px;
+}
+.metodo p{
+    font-size: 12px;
+}
+.metodo img{
+    position: relative;
+    top: -15px;
+}
+.linha{
+    background-color: #464646;
+    height: 1px;
+    opacity: 0.1;
+    margin-left: -16px;
+}
+.chat{
+    position: relative;
+    left: 63px;
+    top: -7px;
+}
+.circulo{
+    position: relative;
+    left: 90px;
+    top: 2px;
+}
+.consulta-horario{
+    height: 19px;
+    width: 200px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: left;
+    margin-left: 6px;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    column-gap: 22px;
+    margin-left: 6px;
+    align-items: center;
+}
+.btn-video{
+    background: #FFB050;
+    width: 139px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    color: #F9F7FE;
+    font-size: 14px;
+    text-align: center;
+}
+.btn-audio{
+    background: #FFFFFF;
+    border: 1px solid #ECECEC;
+    border-radius: 8px;
+    width: 139px;
+    height: 48px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+}
+.btn-endereco{
+    width: 296px;
+    height: 48px;
+    background: #4894FF;
+    box-shadow: 0px 4px 16px rgba(72, 148, 255, 0.16);
+    border-radius: 8px;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+#rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 58px;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+#icon-calendario{
+    width: 20px;
+    height: 2px;
+}
+#icon-clientes{
+    width: 20px;
+    height: 2px;
+}
+#icon-relatorio{
+    width: 20px;
+    height: 2px;
+}
+#rodape span{
+    height: 19px;
+    width: 60px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    color:#464646;
+}
+#icon-menu, #menu-menu{
+    display: flex;
+    flex-direction: column;
+    width: 20px;
+    height: 2px;
+    row-gap: 2px;
+    margin-bottom: -15px;
+}
+#menu-menu{
+    margin-top: 3.5px;
+}
+.menu-rodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#botao-flutuante, .botoes-flutuantes{
+    position: fixed;
+    display: flex;
+    position: fixed;
+    bottom: 65px;
+    right: 10px;
+}
+#botao-flutuante-one{
+    bottom: 273px;
+}
+#botao-flutuante-two{
+    bottom: 169px;
+}
+.botoes-flutuantes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.botoes-flutuantes span{
+    margin-bottom: 7px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 2px 8px 2px 8px;
+    font-size: 12px;
+}
+
+#fundo-preto{
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 0px;
+    top: 0px;
+    background: #000000;
+    opacity: 0.6;
+}
+#navbar-esquerdo{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    background: #FFFFFF;
+    padding-left: 10px;
+    border-radius: 8px;
+    height: 2300px;
+    width: 200px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+.menu-navbar{
+    display: flex;
+    flex-direction: row;
+    padding-top: 25px;
+    justify-content: flex-start;
+    column-gap: 15px;
+}
+#navbar-esquerdo span{
+    height: 19px;
+    width: 60px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    color:#464646;
+}
