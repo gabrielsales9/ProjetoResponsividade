@@ -219,8 +219,8 @@ main{
     position: fixed;
     display: flex;
     position: fixed;
-    bottom: 65px;
-    right: 10px;
+    bottom: 80px;
+    right: 25px;
 }
 #botao-flutuante-one{
     bottom: 273px;
@@ -235,12 +235,16 @@ main{
 }
 .botoes-flutuantes span{
     margin-bottom: 7px;
+    margin-right: 10px;
     background-color: white;
     border-radius: 8px;
     padding: 2px 8px 2px 8px;
     font-size: 12px;
 }
-
+.botoes-flutuantes img, #botao-flutuante{
+    width: 60px;
+    height: 60px;
+}
 #fundo-preto{
     position: absolute;
     width: 100%;
