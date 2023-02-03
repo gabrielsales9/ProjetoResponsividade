@@ -22,6 +22,39 @@ body{
     align-items: center;
     justify-content: center;
 }
+#navbar-esquerdo{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    background: #FFFFFF;
+    padding-top: 13px;
+    padding-left: 15px;
+    border-radius: 8px;
+    height: 2300px;
+    width: 180px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+#navbar-esquerdo span{
+    height: 19px;
+    width: 60px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    color:#464646;
+}
+.menu-navbar{
+    display: flex;
+    flex-direction: row;
+    padding-top: 25px;
+    align-items: center;
+    column-gap: 10px;
+}
+#icon-calendario{
+    width: 12%;
+    height: 100%;
+}
 #conteudo{
     display: flex;
     flex-direction: column;
@@ -177,18 +210,6 @@ main{
     background: #FFFFFF;
     border-radius: 8px;
 }
-#icon-calendario{
-    width: 20px;
-    height: 2px;
-}
-#icon-clientes{
-    width: 20px;
-    height: 2px;
-}
-#icon-relatorio{
-    width: 20px;
-    height: 2px;
-}
 #rodape span{
     height: 19px;
     width: 60px;
@@ -197,17 +218,6 @@ main{
     line-height: 19px;
     text-align: center;
     color:#464646;
-}
-#icon-menu, #menu-menu{
-    display: flex;
-    flex-direction: column;
-    width: 20px;
-    height: 2px;
-    row-gap: 2px;
-    margin-bottom: -15px;
-}
-#menu-menu{
-    margin-top: 3.5px;
 }
 .menu-rodape{
     display: flex;
@@ -253,33 +263,4 @@ main{
     top: 0px;
     background: #000000;
     opacity: 0.6;
-}
-#navbar-esquerdo{
-    display: flex;
-    flex-direction: column;
-    align-self: flex-start;
-    background: #FFFFFF;
-    padding-left: 10px;
-    border-radius: 8px;
-    height: 2300px;
-    width: 200px;
-    position: fixed;
-    left: 0px;
-    top: 0px;
-}
-.menu-navbar{
-    display: flex;
-    flex-direction: row;
-    padding-top: 25px;
-    justify-content: flex-start;
-    column-gap: 15px;
-}
-#navbar-esquerdo span{
-    height: 19px;
-    width: 60px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 19px;
-    text-align: center;
-    color:#464646;
 }
