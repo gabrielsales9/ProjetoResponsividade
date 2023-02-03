@@ -27,11 +27,9 @@ body{
     flex-direction: column;
     align-self: flex-start;
     background: #FFFFFF;
-    padding-top: 13px;
-    padding-left: 15px;
     border-radius: 8px;
     height: 2300px;
-    width: 180px;
+    width: 210px;
     position: fixed;
     left: 0px;
     top: 0px;
@@ -47,9 +45,20 @@ body{
 .menu-navbar{
     display: flex;
     flex-direction: row;
-    padding-top: 25px;
+    padding: 5px 10px 5px 10px;
     align-items: center;
     column-gap: 10px;
+    margin-top: 13px;
+}
+.style-link div:hover{
+    background-color: #b1b4b9;
+    height: 35px;
+    font-size: 100px;
+    z-index: -1;
+    left: calc(50% - 4px);
+    padding: 0 2px;
+    border: 1px solid transparent;
+    transition: 0.4s;
 }
 #icon-calendario{
     width: 12%;
@@ -66,7 +75,8 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    column-gap: 16px;
+    column-gap: 8px;
+    margin-left: 10px;
 }
 .text-navbar{
     display: flex;
@@ -263,4 +273,7 @@ main{
     top: 0px;
     background: #000000;
     opacity: 0.6;
+}
+a {
+    text-decoration: none;
 }
